@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryption</title>
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%239c67f9%22></rect><text x=%2250%%22 y=%2250%%22 dominant-baseline=%22central%22 text-anchor=%22middle%22 font-size=%2273%22>🔒</text></svg>"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <h1>Encryption</h1>
+      <textarea
+        id="plaintext"
+        placeholder="Enter your text to encrypt"
+      ></textarea>
+      <button onclick="encrypt()" id="btn">Encrypt</button>
+      <h2>Encrypted Text</h2>
+      <textarea id="encrypted" readonly></textarea>
+    </div>
+    <div class="banner">
+      <a href="https://brand-experience.ieee.org/" target="_blank"
+        ><img src="../images/ad1221.jpg" alt="Banner Ad" id="aids"
+      /></a>
+    </div>
+    <div class="toggle-switch">
+      <label class="switch">
+        <input type="checkbox" id="toggleAidsButton" checked />
+        <span class="slider"></span>
+      </label>
+      <span class="toggle-label">Toggle Aids</span>
+    </div>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/aids.js"></script>
+    <script src="../scripts/popup.js"></script>
+  </body>
+</html>
